@@ -10,53 +10,38 @@
     <link rel="stylesheet" href="./css/output.css">
 </head>
 <body class="bg-blue-50 h-screen flex items-center justify-center">
-    <div id="container" class="max-w-4xl bg-blue-100 mx-auto flex items-center justify-between rounded-lg shadow-lg">
+    <div id="container" class="max-w-3xl bg-blue-100 mx-auto flex items-center justify-between rounded-lg shadow-lg">
         <div id="img" class="w-1/2 hidden lg:block">
-            <img src="./img/digital-art-isolated-house.jpg" alt="login image" class="rounded-bl-lg rounded-l-lg">
+            <img src="./img/Untitled-2.jpg" alt="login image" class="rounded-bl-lg rounded-l-lg">
         </div>
-        <div id="f-part" class="w-full lg:w-1/2 m-9 ">
+        <div id="f-part" class="w-1/2 lg:w-1/2 m-9 ">
             <h1 class="text-center text-4xl font-medium my-6">Register</h1>
-            <form>
-                <div class="form-control relative mt-3">
+            <form id="form">
+                <div class="form-control relative mt-6">
                     <label for="username" class="block mb-3">Username</label>
                     <input type="text" placeholder="Username" id="username" class="bg-white w-full py-2 px-4 rounded-md focus:outline-slate-500 ">
-                    <div id="icons" class="hidden">
-                        <i class="fa fa-check text-green-400 absolute top-[45px] right-3"></i>
-                        <i class="fa fa-close text-red-400 absolute top-[45px] right-3"></i>
-                    </div>
-                    <small class="mb-3 hidden">error message</small>
+                    <small class="mb-3"></small>
                 </div>
-                <div class="form-control relative mt-3">
+                <div class="form-control relative mt-6">
                     <label for="email" class="block mb-3">Email</label>
-                    <input type="text" placeholder="Email" id="email" class="bg-white w-full py-2 px-4 rounded-md focus:outline-slate-500 ">
-                    <div id="icons" class="hidden">
-                        <i class="fa fa-check text-green-400 absolute top-[45px] right-3"></i>
-                        <i class="fa fa-close text-red-400 absolute top-[45px] right-3"></i>
-                    </div>
-                    <small class="mb-3 hidden">error message</small>
+                    <input type="email" placeholder="Email" id="email" class="bg-white w-full py-2 px-4 rounded-md focus:outline-slate-500 ">
+                    <small class="mb-3"></small>
                 </div>
-                <div class="form-control relative mt-3">
+                <div class="form-control relative mt-6">
                     <label for="password" class="block mb-3">Password</label>
-                    <input type="text" placeholder="password" id="password" class="bg-white w-full py-2 px-4 rounded-md focus:outline-slate-500 ">
-                    <div id="icons" class="hidden">
-                        <i class="fa fa-check text-green-400 absolute top-[45px] right-3"></i>
-                        <i class="fa fa-close text-red-400 absolute top-[45px] right-3"></i>
-                    </div>
-                    <small class="mb-3 hidden">error message</small>
+                    <input type="password" placeholder="password" id="password" class="bg-white w-full py-2 px-4 rounded-md focus:outline-slate-500 ">
+                    <small class="mb-3"></small>
                 </div>
-                <div class="form-control relative mt-3">
+                <div class="form-control relative mt-6">
                     <label for="confirmPassword" class="block mb-3">confirmPassword</label>
                     <input type="password" placeholder="confirmPassword" id="confirmPassword" class="bg-white w-full py-2 px-4 rounded-md focus:outline-slate-500 ">
-                    <div id="icons" class="hidden">
-                        <i class="fa fa-check text-green-400 absolute top-[45px] right-3"></i>
-                        <i class="fa fa-close text-red-400 absolute top-[45px] right-3"></i>
-                    </div>
-                    
-                    <small class="mb-3 hidden">error message</small>
+                    <small class="mb-3"></small>
                 </div>
                 <button type="submit" id="btn" class="bg-lime-400 w-full py-2 px-4 rounded-md mt-6 text-white font-medium">Submit</button>
             </form>
         </div>
     </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>

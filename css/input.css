@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.form-control.success input {
+    border: 1px solid #31ca15;
+}
+.form-control.error input {
+    border: 1px solid #ec5a36;
+}
+.form-control i.fa-check{
+    visibility: hidden;
+}
+.form-control i.fa-close{
+    visibility: hidden;
+}
